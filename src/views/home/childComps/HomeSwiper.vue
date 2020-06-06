@@ -18,14 +18,14 @@
             Swiper,
             SwiperItem
         },
-    props:{
-      banners:{
-        type:Array,
-        default(){
-          return []
+        props: {
+            banners: {
+                type: Array,
+                default () {
+                    return []
+                }
+            }
         }
-      }
-    }
     }
 </script>
 
